@@ -129,6 +129,7 @@ namespace GameFramework.Resource
             m_ResourceUpdateAllCompleteEventHandler = null;
         }
 
+        #region 属性
         /// <summary>
         /// 获取游戏框架模块优先级。
         /// </summary>
@@ -743,7 +744,8 @@ namespace GameFramework.Resource
             {
                 m_ResourceUpdateAllCompleteEventHandler -= value;
             }
-        }
+        } 
+        #endregion
 
         /// <summary>
         /// 资源管理器轮询。
